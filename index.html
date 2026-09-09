@@ -13,7 +13,7 @@
             outline: none;
             border: 2px groove black;
         }
-        
+
 
         input {
             outline: none;
@@ -39,7 +39,7 @@
 </head>
 
 <body>
-    <div class="container" style="width: fit-content;">
+    <div class="container" style="width: fit-content; padding-top: 30px;">
         <form action="https://api.web3forms.com/submit" method="post"
             style=" width: fit-content; padding-bottom: 20px; margin: 0px auto; ">
             <h2 style="width: fit-content; margin: auto; text-align: center;">Residential Rental <br> Property
@@ -235,20 +235,20 @@
                 <div>
                     <label for="signature">18. Applicant Signature:</label><br>
 
-                    <canvas id="signature" width="300" height="200"
-                        style="border: 1px solid #ccc; border-radius: 8px; cursor: crosshair;">
+                    <canvas id="signature"  width="300" height="200"
+                        style="border: 1px solid #ccc; border-radius: 8px; cursor: crosshair;" >
                     </canvas>
                 </div>
                 <br>
 
                 <button type="button" id="clearSignature">Clear</button>
 
-                <input type="hidden" name="signature" id="signatureData">
+                <input type="hidden" name="signature" id="signatureData" required>
 
 
 
                 <br><br><button type="submit"
-                    style="border: none; height: 60px; background-color: greenyellow; width: 260px;">Submit</button>
+                    style=" margin-left: 20px; border: none; height: 60px; background-color: greenyellow; width: 260px;">Submit</button>
 
             </div>
 
